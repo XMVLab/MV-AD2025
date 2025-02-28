@@ -76,13 +76,11 @@ from benchmarks import mvtec_evaluation
 文件校验码：
 
 text
-复制
 SHA256: xxxxxxxxxxxxxx
 引用
 若使用本数据集，请引用：
 
 bibtex
-复制
 @misc{InduDefect2023,
   title={InduDefect: A Multi-Illumination Industrial Defect Benchmark},
   author={Your Team},
