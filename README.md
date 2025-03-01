@@ -4,27 +4,25 @@ An Industrial Surface Defect Dataset
 [![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ![Version](https://img.shields.io/badge/Version-v1.0-blue)
 
-面向工业质检的多光照多视角缺陷检测基准数据集 | [Paper]() | [Download](#download)
+面向工业质检的多光照多视角缺陷检测基准数据集 | [Download](#download)
 
 ![Dataset Samples](docs/teaser.png)
 
 ## 特色亮点
-✅ **工业级多样性**：涵盖4类工业对象（3类电子元件+1类瓷砖）  
-✅ **复杂缺陷形态**：每类7-9种真实缺陷类型，总计32种缺陷类别  
-✅ **成像多样性**：多角度（3-5个观测面）与多光源（明场/暗场/低角度）组合  
-✅ **高精度标注**：提供像素级分割掩膜与包围盒标注  
-✅ **基准测试**：支持MVTec AD兼容评估协议
+✅ **数据多样性**：涵盖4类工业对象（磁芯、贴片电感、贴片电容和瓷砖）  
+✅ **复杂缺陷形态**：每类7-9种真实缺陷类别，总计31种缺陷类别  
+✅ **成像多样性**：多角度（1-4个观测面）与多光源（明场/暗场/低角度）组合  
+✅ **高精度标注**：提供像素级分割掩膜标注
+✅ **细粒度标注**：提供细粒度的抽象语义属性标签  
 
 ## 数据集结构
 
 ```InduDefect
 ├── Category1_MagneticCore
-│ ├── train
-│ │ ├── good # 正常样本
-│ │ └── defect_type_map.json
-│ └── test
-│ ├── bad # 缺陷样本
-│ ├── ground_truth # 像素级标注
+│ ├── Image
+│ │ ├── Good # 正常样本
+│ │ └── NG # 缺陷样本
+│ └── Mask
 ├── Category2_ChipInductor
 ├── Category3_ChipCapacitor
 └── Category4_CeramicTile
@@ -38,15 +36,18 @@ An Industrial Surface Defect Dataset
 | 贴片电容         | 20,888    | 8        | 3面×3光源 |
 | 瓷砖             | 14,000    | 7        | 1面×1光源 |
 
+## 样例图
+
+
 ## 缺陷类型示例
-**电子元件类共同缺陷**：
+**电感缺陷**：
 - 裂痕（线状/网状）
 - 缺块
 - 焊点缺陷
 - 材料裂纹
 - 氧化污染
 
-**瓷砖特有缺陷**：
+**瓷砖缺陷**：
 - 釉面气泡
 - 色差斑点
 - 边缘崩缺
