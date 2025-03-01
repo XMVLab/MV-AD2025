@@ -6,7 +6,14 @@ An Industrial Surface Defect Dataset
 
 面向工业质检的多光照多视角缺陷检测基准数据集 | [Download](#download)
 
+磁芯
 ![Dataset Samples](figures/MagneticCore.jpg)
+贴片电感
+![Dataset Samples](figures/ChipInductor.jpg)
+贴片电容
+![Dataset Samples](figures/ChipCapacitor.jpg)
+瓷砖
+![Dataset Samples](figures/CeramicTile.jpg)
 
 ## 特色亮点
 ✅ **数据多样性**：涵盖4类工业对象（磁芯、贴片电感、贴片电容和瓷砖）  
@@ -40,17 +47,40 @@ An Industrial Surface Defect Dataset
 
 
 ## 缺陷类型示例
-**电感缺陷**：
+**磁芯缺陷**：
 - 裂痕（线状/网状）
 - 缺块
 - 焊点缺陷
 - 材料裂纹
 - 氧化污染
 
+**贴片电感缺陷**：
+- 裂痕（线状/网状）
+- 缺块
+- 焊点缺陷
+- 材料裂纹
+- 氧化污染
+
+**贴片电容缺陷**：
+- 元件异常(形状缺陷)
+- 本体异常(形状缺陷)
+- 电极异常(形状缺陷)
+- 电极扩散(形状缺陷)
+- 本体边缘异常(纹理缺陷)
+- 电极边缘异常(纹理缺陷)
+- 电极边角异常(形状/纹理缺陷)
+- 本体区域异常(纹理缺陷)
+![Dataset Samples](figures/AD_ChipCapacitor.jpg)
+
 **瓷砖缺陷**：
-- 釉面气泡
-- 色差斑点
-- 边缘崩缺
+- 滴墨
+- 模糊(喷头焦点丢失)
+- 缺线(喷头堵塞)
+- 缺线(相邻喷头间隙)
+- 色差
+- 阴阳色(喷墨电压不稳定)
+- 阴阳色(喷头重叠)
+![Dataset Samples](figures/AD_CeramicTile.jpg)
 
 ## 基准测试
 支持以下评估模式：
@@ -89,7 +119,7 @@ bibtex
   howpublished={\url{https://github.com/your-repo}}
 }
 致谢
-数据集构建得到XX检测设备公司技术支持，使用X光成像系统（型号XXX）与多轴机械臂采集平台。
+数据集由西安交通大学、华南理工大学、广州深视未来智能科技有限责任公司、肇庆市宏华电子科技有限公司共同发布。
 
 相关项目：
 MVTec AD | VisA | Real-IAD
