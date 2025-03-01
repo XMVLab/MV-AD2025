@@ -16,32 +16,32 @@ An Industrial Surface Defect Dataset
 ✅ **基准测试**：支持MVTec AD兼容评估协议
 
 ## 数据集结构
-InduDefect/
-├── Category1_MagneticCore/
-│ ├── train/
-│ │ ├── good/ # 正常样本
+
+```InduDefect
+├── Category1_MagneticCore
+│ ├── train
+│ │ ├── good # 正常样本
 │ │ └── defect_type_map.json
-│ └── test/
-│ ├── bad/ # 缺陷样本
-│ ├── ground_truth/ # 像素级标注
-├── Category2_ChipInductor/
-├── Category3_ChipCapacitor/
-└── Category4_CeramicTile/
+│ └── test
+│ ├── bad # 缺陷样本
+│ ├── ground_truth # 像素级标注
+├── Category2_ChipInductor
+├── Category3_ChipCapacitor
+└── Category4_CeramicTile
+```
 
-复制
-
-## 数据规格
-| 类别             | 总样本量 | 缺陷类型 | 成像组合 | 分辨率 |
-|------------------|----------|----------|----------|--------|
-| 磁芯             | 1,850    | 8        | 5面×3光源 | 1024×1024 |
-| 贴片电感         | 1,920    | 7        | 4面×3光源 | 1024×1024 |
-| 贴片电容         | 1,780    | 9        | 3面×3光源 | 1024×1024 |
-| 瓷砖             | 2,150    | 8        | 单面×3光源 | 2048×2048 |
+## 数据集组成
+| 目标对象         | 总样本量 | 缺陷类型 | 成像组合  | 
+|------------------|-----------|----------|-----------|
+| 磁芯             | 45,121    | 7        | 2面×4光源 |
+| 贴片电感         | 72,879    | 9        | 4面×4光源 |
+| 贴片电容         | 20,888    | 8        | 3面×3光源 |
+| 瓷砖             | 14,000    | 7        | 1面×1光源 |
 
 ## 缺陷类型示例
 **电子元件类共同缺陷**：
-- 划痕（线状/网状）
-- 镀层脱落
+- 裂痕（线状/网状）
+- 缺块
 - 焊点缺陷
 - 材料裂纹
 - 氧化污染
