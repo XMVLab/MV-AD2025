@@ -1,10 +1,11 @@
-# MV-AD2025
-An Industrial Surface Defect Dataset
+# MV-AD2025：An Industrial Surface Defect Dataset
 
 [![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ![Version](https://img.shields.io/badge/Version-v1.0-blue)
 
-面向工业质检的多光照多视角缺陷检测基准数据集 | [Download](#download)
+面向工业质检的多光照多视角缺陷检测基准数据集 | [Download](#[https://pan.baidu.com/s/1C-7WtgGpwg992elSjtcWwg?pwd=si41])
+
+提取码: si41 
 
 磁芯
 ![Dataset Samples](figures/MagneticCore.jpg)
@@ -14,6 +15,8 @@ An Industrial Surface Defect Dataset
 ![Dataset Samples](figures/ChipCapacitor.jpg)
 瓷砖
 ![Dataset Samples](figures/CeramicTile.jpg)
+
+![Dataset Samples](figures/OKNGSample.jpg)
 
 ## 特色亮点
 ✅ **数据多样性**：涵盖4类工业对象（磁芯、贴片电感、贴片电容和瓷砖）  
