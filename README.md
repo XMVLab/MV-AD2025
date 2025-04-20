@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ![Version](https://img.shields.io/badge/Version-v1.0-blue)
 
-面向工业质检的多光照多视角缺陷检测基准数据集 | [Download](#[https://pan.baidu.com/s/1C-7WtgGpwg992elSjtcWwg?pwd=si41])
+面向工业质检的多光照多视角缺陷检测基准数据集 | [Download](https://pan.baidu.com/s/1C-7WtgGpwg992elSjtcWwg?pwd=si41)
 
 提取码: si41 
 
