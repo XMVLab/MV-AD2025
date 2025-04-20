@@ -91,7 +91,7 @@
 # 兼容MVTec评估协议
 from benchmarks import mvtec_evaluation
 
-# 示例结果（基于ResNet-18 backbone）
+# 示例结果（基于 ***  backbone）
 | 类别        | AUROC  | F1 Score | PRO Score |
 |-------------|--------|----------|-----------|
 | 磁芯        | 98.2%  | 95.7%    | 96.8%     |
@@ -105,20 +105,15 @@ from benchmarks import mvtec_evaluation
 
 ❌ 禁止直接用于商业产品
 
-下载
-[Google Drive] | [Baidu Pan] (密码: xxxx)
-文件校验码：
 
-text
-SHA256: xxxxxxxxxxxxxx
 引用
 若使用本数据集，请引用：
 
 bibtex
 @misc{InduDefect2023,
   title={InduDefect: A Multi-Illumination Industrial Defect Benchmark},
-  author={Your Team},
-  year={2023},
+  author={XJTU & SCUT MVLab},
+  year={2025},
   howpublished={\url{https://github.com/your-repo}}
 }
 致谢
