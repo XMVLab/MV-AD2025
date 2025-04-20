@@ -30,9 +30,8 @@
 ```InduDefect
 ├── Category1_MagneticCore
 │ ├── Image
-│ │ ├── Good # 正常样本
-│ │ └── NG # 缺陷样本
-│ └── Mask
+│   ├── Good # 正常样本
+│   └── NG # 缺陷样本
 ├── Category2_ChipInductor
 ├── Category3_ChipCapacitor
 └── Category4_CeramicTile
